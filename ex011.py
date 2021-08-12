@@ -10,7 +10,7 @@ custoCadaKw = valorKw/kw
 #valor com desconto de 10%
 desconto = valorKw*0.9
 
-print('O valor de cada kw gasto custa R$ {}.' .format(custoCadaKw))
-print('O valor total da conta de energia é R$ {}.' .format(valorKw))
-print('Se optar com pontualidade teré 10% de desconto, resultando em R$ {}.' .format(desconto))
+print('O valor de cada kw gasto custa R$ {:.2f}.' .format(custoCadaKw))
+print('O valor total da conta de energia é R$ {:.2f}.' .format(valorKw))
+print('Se optar pagar com pontualidade terá 10% de desconto, resultando em R$ {:.2f}.' .format(desconto))
            
